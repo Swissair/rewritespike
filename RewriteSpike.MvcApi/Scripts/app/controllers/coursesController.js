@@ -1,5 +1,5 @@
 ﻿angular.module('registrationApp')
-.controller('RegistrationController', ['$scope', 'registrationService', function ($scope, registrationService) {
+.controller('CoursesController', ['$scope', 'registrationService', function ($scope, registrationService) {
     $scope.greeting = "Hello";
     $scope.wasSuccessful = '';
 
@@ -12,5 +12,5 @@
         });
     };
 
-    // init();
+    init();
 }]);

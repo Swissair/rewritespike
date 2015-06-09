@@ -1,16 +1,17 @@
 ﻿angular.module('registrationApp')
-.factory('registrationService', ['$http', '$q', function ($http, $q) {
+.factory('accountService', ['$http', '$q', function ($http, $q) {
     return {
-        get: function () {
+        save: function (student) {
             var deffered = $q.defer();
 
-            $http.get('/api/registration/get')
+            $http.post('/api/account/save', student)
             .success(function (data) {
                 deffered.resolve(data);
             })
             .error(function (data) {
                 deffered.reject(data);
-            })
+            });
+
             return deffered.promise;
         }
     };

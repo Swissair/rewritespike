@@ -16,11 +16,17 @@ namespace RewriteSpike.MvcApi.Controllers
 
     public class RegistrationController : ApiControllerBase
     {
+        private bool showErrorMessage = false;
+
         [HttpGet]
         public HttpResponseMessage Get()
         {
-            var responseMessage = new HttpResponseMessage(HttpStatusCode.BadRequest);
-            // return this.Request.CreateErrorResponse(HttpStatusCode.InternalServerError, "This request is bad!");
+            if (showErrorMessage)
+            {
+                var responseMessage = new HttpResponseMessage(HttpStatusCode.BadRequest);
+                return this.Request.CreateErrorResponse(HttpStatusCode.InternalServerError, "This request is bad!");
+            }
+
             return this.Request.CreateResponse("Hello from Web Api");
         }
     }
