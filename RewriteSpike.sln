@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RewriteSpike", "RewriteSpike\RewriteSpike.csproj", "{8BE92D4E-D613-400C-978F-A02DFD7C11CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RewriteSpike.Mvc", "RewriteSpike.Mvc\RewriteSpike.Mvc.csproj", "{3E7039D4-2905-436E-8041-25F4774F2DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RewriteSpike.MvcApi", "RewriteSpike.MvcApi\RewriteSpike.MvcApi.csproj", "{6848EBA0-3B17-42FD-94EB-48386D76DEB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BE92D4E-D613-400C-978F-A02DFD7C11CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE92D4E-D613-400C-978F-A02DFD7C11CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE92D4E-D613-400C-978F-A02DFD7C11CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE92D4E-D613-400C-978F-A02DFD7C11CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7039D4-2905-436E-8041-25F4774F2DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7039D4-2905-436E-8041-25F4774F2DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7039D4-2905-436E-8041-25F4774F2DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7039D4-2905-436E-8041-25F4774F2DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6848EBA0-3B17-42FD-94EB-48386D76DEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6848EBA0-3B17-42FD-94EB-48386D76DEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6848EBA0-3B17-42FD-94EB-48386D76DEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6848EBA0-3B17-42FD-94EB-48386D76DEB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
